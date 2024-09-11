@@ -24,6 +24,7 @@ CREATE TABLE hotel (
 );
 
 -- Tables à insérer ici
+
 CREATE TABLE room(
 	id SERIAL primary KEY,
 	hotel_id INT NOT NULL,
